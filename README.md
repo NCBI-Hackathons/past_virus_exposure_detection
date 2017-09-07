@@ -1,1 +1,1 @@
-# past_virus_exposure_detection
+# A system to detect previous viral exposure in host genomes from ngs data
