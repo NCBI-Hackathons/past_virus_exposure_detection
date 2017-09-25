@@ -20,7 +20,7 @@ GetOptions ("q|query=s" => \$query,
 
 if ($help) {
   my $usage = <<USAGE;
-$0 [-x | -h | -d ] -q QUERY -c CONTIGS
+$0 [-e | -x | -h | -d ] -q QUERY -c CONTIGS
 
       REQUIRED:
       -q|query         Fasta file containing one sequence (your query sequence)
@@ -29,6 +29,7 @@ $0 [-x | -h | -d ] -q QUERY -c CONTIGS
       OPTIONAL:
       -d|dbname        BLAST database name ("tempdb")
       -x|extendedfile  Extended sequence file ("extended.fa")
+      -e|evalue        Evalue cutoff for BLASTN match (0)
       -h               Help
 
       DESCRIPTION:
